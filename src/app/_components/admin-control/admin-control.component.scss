@@ -1,0 +1,74 @@
+.home {
+  /* Remember to use the other versions for IE 10 and older browsers! */
+  // display: flex;
+  // justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  font-family: 'lato', sans-serif;
+  color: #fff;
+  height:94vh;
+  background: #222222;
+  background: #16222A; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #16222A , #3A6073); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #16222A, aliceblue);
+}
+// .example-header {
+//   min-height: 64px;
+//   padding: 8px 24px 0;
+// }
+.header {
+  height: 70px;
+  background: #dce8ed;
+  display: flex;
+  align-items: center;
+}
+.link{
+  margin: 0% 1%;
+  // cursor: pointer;
+  color: cornflowerblue;
+}
+.links{
+  margin: 0% 1%;
+  cursor: pointer;
+  color: cornflowerblue;
+}
+.pdt-title{
+  margin: 0% 1%;
+  font-size: 2em;
+  font-weight: 600;
+  color: black;
+}
+.company-name{
+  position: absolute;
+  right: 1%;
+}
+.logo-label{
+  color: #7e7676;
+  font-weight: 300;
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo-block{
+  display: flex;
+}
+.logo-filled{
+  width: 70px;
+}
+.vl {
+  border-left: 1.5px solid #a0a7a0;
+  height: 26px;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+  color: darkorchid;
+}
+.container {
+  background:rgba(58,63,68,0.5);
+  border-radius: 5px;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+  // width:600px;
+  display: flex;
+  flex-direction: column;
+}
